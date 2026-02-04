@@ -1,0 +1,21 @@
+# --- 全体共通 ---
+.DS_Store
+.env
+.env.local
+
+# --- Frontend (Node.js/Next.js) ---
+node_modules/
+.next/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Backend (Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
